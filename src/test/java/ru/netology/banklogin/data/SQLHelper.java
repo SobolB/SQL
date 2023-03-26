@@ -1,10 +1,12 @@
 package ru.netology.banklogin.data;
 
+import com.github.javafaker.QveryRunner;
 import lombok.SneakyThrows;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
 
 public class SQLHelper {
     private static QueryRunner runner =new QueryRunner();
