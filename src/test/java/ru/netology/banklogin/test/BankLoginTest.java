@@ -9,8 +9,7 @@ import ru.netology.banklogin.page.LoginPage;
 
 import static ru.netology.banklogin.data.SQLHelper.cleanDatabase;
 import static com.codeborne.selenide.Selenide.open;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.web.data.DataHelper.*;
+
 
 public class BankLoginTest {
 
