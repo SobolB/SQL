@@ -1,6 +1,10 @@
 package ru.netology.banklogin.page;
 
+import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.support.FindBy;
 import ru.netology.banklogin.data.DataHelper;
+
+import static com.codeborne.selenide.Condition.visible;
 
 public class LoginPage {
     @FindBy(css = "[data-test-id=login] input")
