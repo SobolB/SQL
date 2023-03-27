@@ -1,6 +1,7 @@
 package ru.netology.banklogin.data;
 
-import com.github.javafaker.QveryRunner;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
 import lombok.SneakyThrows;
 
 import java.sql.Connection;
