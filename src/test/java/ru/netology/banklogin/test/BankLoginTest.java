@@ -31,7 +31,7 @@ public class BankLoginTest {
     @DisplayName("Should get error notification if user is not exist in base")
     void shouldGetErrorNotificationRandomUsersWithoutAddingToBase(){
         var loginPage = open("http://localhost:9999", LoginPage.class);
-        var authInfo = DataHelper.getAuthInfoWithTestData();
+        var authInfo = DataHelper.generateRandomUser();
         loginPage.validLogin(authInfo);
         loginPage.verifyErrorNotificationVisiblity();
     }
